@@ -1,5 +1,9 @@
-```markdown
+
 # 🕹️ My First Game in C++ — Ping Pong
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Pong_Game_Test.png" width="500" alt="Ping Pong Preview"/>
+</p>
 
 A simple **retro-style Ping Pong game** written in **C++**, inspired by the classic 1980s arcade game.  
 This project is my first attempt at making a game in C++, focusing on **basic game loops**, **collision detection**, and **keyboard input handling**.
@@ -7,28 +11,25 @@ This project is my first attempt at making a game in C++, focusing on **basic ga
 ---
 
 ## 🚀 Features
-- Classic **Ping Pong mechanics** 🏓
-- Player vs Player (two-player mode)
-- Simple ASCII-based graphics in the console
-- Score tracking system
-- Runs directly in the terminal (no external libraries required)
+✅ Classic **Ping Pong mechanics** 🏓  
+✅ Two-player mode (local multiplayer)  
+✅ Console-based ASCII graphics  
+✅ Score tracking system  
+✅ Lightweight — no external libraries required  
 
 ---
 
-## 📷 Preview
-```
+## 🎨 ASCII Preview
 
-| Player 1 | O | Player 2 |
-| -------- | - | -------- |
+╔════════════════════════════╗
+║ Player 1       O      Player 2 ║
+║                               ║
+║                               ║
+║                               ║
+║   🏓 Simple Retro Pong Game 🏓   ║
+╚════════════════════════════╝
 
-```
-     |             |         
-```
 
-````
-*(Console-based rendering)*
-
----
 
 ## 🛠️ Getting Started
 
@@ -51,47 +52,46 @@ g++ main.cpp -o pingpong
 ./pingpong
 ````
 
----
 
 ## 🎮 Controls
 
-* **Player 1:** `W` (up), `S` (down)
-* **Player 2:** `↑` (up arrow), `↓` (down arrow)
-* **Quit Game:** `Q`
+🕹️ **Player 1:** `W` = Up | `S` = Down
+🕹️ **Player 2:** `↑` = Up Arrow | `↓` = Down Arrow
+❌ **Quit Game:** `Q`
 
 ---
 
 ## 📖 What I Learned
 
-* Basics of **C++ game loops**
-* Handling **user input** in real time
-* **Collision detection** between ball and paddles
-* Working with **ASCII graphics**
+* Building a **game loop** in C++
+* Handling **real-time keyboard input**
+* **Collision detection** logic
+* Rendering simple **ASCII graphics** in the terminal
 
 ---
 
 ## 🔮 Future Improvements
 
-* Add **single-player mode** with simple AI
-* Improve graphics (e.g., SDL or SFML)
-* Add sound effects
-* Adjustable game speed / difficulty
+✨ Add **single-player mode with AI**
+✨ Improve visuals using **graphics libraries** (SDL / SFML)
+✨ Add **sound effects**
+✨ Implement **difficulty levels**
 
 ---
 
 ## 🤝 Contributing
 
-This is a beginner-friendly project. If you have suggestions or improvements, feel free to **fork** this repo and create a pull request.
+Got ideas? Feel free to **fork this repo** and open a pull request.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License** — feel free to use and modify it for learning purposes.
+This project is licensed under the **MIT License** — free to use, learn, and improve.
 
 ---
 
-✨ *Made with C++ and nostalgia for the classics.*
-
-```
+<p align="center">  
+  ✨ Made with ❤️ in C++ & nostalgia for the classics ✨  
+</p>
 ```
